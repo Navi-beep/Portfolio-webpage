@@ -63,8 +63,8 @@ nav a:hover{
 }
 
 #side{
-    width: 20%;
-    float:right;
+    width: 25%;
+    
     height: 100%;
     padding: 20px;
 }
@@ -100,8 +100,11 @@ nav a:hover{
 }
 
 .side-articles{
+    margin-top: 10px;
     background-color: darkgrey;
     text-align: center;
+    width: 20%;
+    float: right;
 }
 
 .main-articles{
