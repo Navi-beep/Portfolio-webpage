@@ -62,11 +62,14 @@ nav a:hover{
     padding-top: 20px;
 }
 
-#side{
-    width: 25%;
-    
+
+.profile-article{
+    width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 20px 1px 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(58, 63, 68);
 }
 
 #profile-image{
@@ -91,6 +94,12 @@ nav a:hover{
 #profile-details{
     margin-right: 30px;
     text-align: center;
+    color:darkgrey;
+    
+}
+
+#profile-details ul{
+    list-style-type: none;
 }
 
 .side-articles, .main-articles{
@@ -101,14 +110,16 @@ nav a:hover{
 
 .side-articles{
     margin-top: 10px;
-    background-color: darkgrey;
+    background-color: rgba(236, 234, 234, .1);
     text-align: center;
     width: 20%;
     float: right;
+    color:darkgrey;
 }
 
 .main-articles{
-    background-color: lightgray;
+    background-color: rgba(236, 234, 234, .1);
+    color:darkgray;
     text-align: justify;
 }
 
