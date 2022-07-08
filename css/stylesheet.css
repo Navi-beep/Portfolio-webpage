@@ -4,8 +4,11 @@ body,html {
 }
 
 body{
-    background-color: black;
+    background-image: url("../images/background1.jpg");
+    background-size: auto;
 }
+
+/** background image sourced from @marjanblan on unsplash **/
 
 nav li {
     display: inline;
