@@ -82,7 +82,7 @@ nav a:hover{
     text-align: center;
 }
 
-.side-articles ul{
+.side-article ul{
     list-style-type: none;
     padding-left:0px;
 }
@@ -103,13 +103,13 @@ nav a:hover{
     list-style-type: none;
 }
 
-.side-articles, .main-articles{
+.side-article, .main-articles{
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
-.side-articles{
+.side-article{
     margin-top: 10px;
     background-color: rgba(236, 234, 234, .1);
     text-align: center;
@@ -130,13 +130,13 @@ form{
 }
 
 textarea, input{
-    background-color: lightgray;
+    background-color: rgb(139, 138, 138);
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
 }
 
-.side-articles h1{
+.side-article h1{
     margin-bottom: 20px;
 }
 
@@ -160,6 +160,10 @@ footer hr{
 }
 
 main{
+    overflow: auto;
+}
+
+form{
     overflow: auto;
 }
 
