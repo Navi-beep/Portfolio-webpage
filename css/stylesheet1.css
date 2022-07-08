@@ -54,68 +54,19 @@ nav a:hover{
     transform: translate(-50%, -50%);
 }
 
-#main{
-    width: 75%;
-    float: left;
-    height: 100%;
+#main_1{
+    width: 50%;
+    height: 50%;
     padding-left: 20px;
     padding-top: 20px;
 }
 
 
-.profile-article{
-    width: 100%;
-    height: 100%;
-    padding: 20px 1px 5px 5px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    
-}
-
-#profile-image{
-    width: 100px;
-    border-radius: 50%;
-    border: 5px solid lightgrey;
-}
-
-#profile{
-    text-align: center;
-}
-
-.side-article ul{
-    list-style-type: none;
-    padding-left:0px;
-}
-
-#profile h2{
-    display: inline;
-}
-
-#profile-details{
-    margin-right: 30px;
-    text-align: auto;
-    color:darkgrey;
-    
-}
-
-
-#profile-details ul{
-    list-style-type: none;
-}
-
-.side-article, .main-articles{
+.main-articles{
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
-}
-
-.side-article{
     margin-top: 10px;
-    background-color: rgba(236, 234, 234, .1);
-    text-align: center;
-    width: 20%;
-    float: right;
-    color:darkgrey;
 }
 
 .main-articles{
@@ -124,20 +75,11 @@ nav a:hover{
     text-align: justify;
 }
 
-form{
-    margin-top: 20px;
-
-}
-
 textarea, input{
     background-color: rgb(139, 138, 138);
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
-}
-
-.side-article h1{
-    margin-bottom: 20px;
 }
 
 footer{
@@ -157,14 +99,6 @@ footer hr{
     height: 12px;
     border: 0px;
     box-shadow:inset 0 12px 12px -12px white;
-}
-
-main{
-    overflow: auto;
-}
-
-form{
-    overflow: auto;
 }
 
 .img {
