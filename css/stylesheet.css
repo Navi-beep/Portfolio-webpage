@@ -26,6 +26,7 @@ nav ul {
 nav {
     display: block;
     color: grey;
+    min-width: fit-content;
 }
 
 nav a{
@@ -152,14 +153,14 @@ footer{
 
 footer div {
     text-align: center;
-    color:white;
+    color:rgb(62, 60, 60);
 }
 
 footer hr{
     margin-top: 0px;
     height: 12px;
     border: 0px;
-    box-shadow:inset 0 12px 12px -12px white;
+    box-shadow:inset 0 12px 12px -12px rgb(58, 56, 56);
 }
 
 main{
