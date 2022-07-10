@@ -175,6 +175,8 @@ form{
 }
 
 .img {
-    width: 45%;
-    height: 45%;
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+
 }
