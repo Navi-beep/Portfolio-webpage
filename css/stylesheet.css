@@ -77,13 +77,14 @@ nav a:hover{
 }
 
 #profile-image{
-    width: 100px;
+    width: 200px;
     border-radius: 50%;
     border: 5px solid lightgrey;
 }
 
 #profile{
     text-align: center;
+
 }
 
 .side-article ul{
@@ -93,11 +94,12 @@ nav a:hover{
 
 #profile h2{
     display: inline;
+    
 }
 
 #profile-details{
     margin-right: 30px;
-    text-align: auto;
+    text-align: center;
     color:darkgrey;
     
 }
@@ -119,7 +121,6 @@ nav a:hover{
     text-align: center;
     width: 40%;
     color:darkgrey;
-    
     transform: translate(70%);
 }
 
