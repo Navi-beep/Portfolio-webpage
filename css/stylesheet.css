@@ -4,11 +4,11 @@ body,html {
 }
 
 body{
-    background-image: url("../images/background1.jpg");
+    background-image: url("../images/annie-spratt-gM8igOIP5MA-unsplash.jpg");
     background-size: 200%;
 }
 
-/** background image sourced from @marjanblan on unsplash **/
+/** background image sourced from @anniespratt on unsplash **/
 
 nav li {
     display: inline;
@@ -119,14 +119,14 @@ nav a:hover{
     text-align: center;
     width: 40%;
     color:darkgrey;
-    display: inline-block;
+    
     transform: translate(70%);
 }
 
 .main-articles{
     background-color: rgba(236, 234, 234, .1);
     color:darkgray;
-    text-align: justify;
+    text-align: center;
 }
 
 form{
