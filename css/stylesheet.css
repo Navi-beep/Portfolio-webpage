@@ -4,8 +4,7 @@ body,html {
 }
 
 body{
-    background-image: url("../images/annie-spratt-gM8igOIP5MA-unsplash.jpg");
-    background-size: 200%;
+    background-color: #f9bcf585;
 }
 
 /** background image sourced from @anniespratt on unsplash **/
@@ -100,7 +99,7 @@ nav a:hover{
 #profile-details{
     margin-right: 30px;
     text-align: center;
-    color:darkgrey;
+    color:rgb(0, 0, 0);
     
 }
 
@@ -120,13 +119,13 @@ nav a:hover{
     background-color: rgba(236, 234, 234, .1);
     text-align: center;
     width: 40%;
-    color:darkgrey;
+    color:rgb(0, 0, 0);
     transform: translate(70%);
 }
 
 .main-articles{
     background-color: rgba(236, 234, 234, .1);
-    color:darkgray;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
